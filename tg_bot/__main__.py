@@ -49,7 +49,7 @@ Hello! my name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-TECHNO_IMG = "https://telegra.ph/file/59569b2025d22475ef2d0.mp4"
+TECHNO_IMG = "https://telegra.ph/file/61cc5897223d2587906b5.jpg"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -139,14 +139,14 @@ def start(bot: Bot, update: Update, args: List[str]):
             update.effective_message.reply_photo(
                 TECHNO_IMG,
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
-                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="🤝HELP🤝",
+                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="Help",
                                                                        callback_data="help_back".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="🧑‍💻My Creator🧑‍💻",
-                                                                       url="t.me/teamishere")],
-                                                                                   [InlineKeyboardButton(text="ADD GRAND OFFICIAL TO YOUR GROUP",
+                                                                                   InlineKeyboardButton(text="Tuan Ku",
+                                                                       url="t.me/fckyouasshole")],
+                                                                                   [InlineKeyboardButton(text="Tambahkan Bot ini Ke Grup mu",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
                                                                                    InlineKeyboardButton(text="Source Code",
-                                                                       url="https://github.com/legendx22/GRANDROBOT")
+                                                                       url="https://github.com/bryanasfuk/GRANDROBOT")
                                                                                  ]]))
 
     else:
