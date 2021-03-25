@@ -49,7 +49,7 @@ Hello! my name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-TECHNO_IMG = "https://telegra.ph/file/61cc5897223d2587906b5.jpg"
+TECHNO_IMG = "https://telegra.ph/file/33d17d96b2e69dd17b033.jpg"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -145,8 +145,8 @@ def start(bot: Bot, update: Update, args: List[str]):
                                                                        url="t.me/fckyouasshole")],
                                                                                    [InlineKeyboardButton(text="Tambahkan Bot ini Ke Grup mu",
                                                                        url="t.me/{}?startgroup=true".format(bot.username)),
-                                                                                   InlineKeyboardButton(text="Source Code",
-                                                                       url="https://github.com/bryanasfuk/GRANDROBOT")
+                                                                                   InlineKeyboardButton(text="Channel",
+                                                                       url="t.me/fckinganxiety")
                                                                                  ]]))
 
     else:
