@@ -26,9 +26,9 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 PM_START_TEXT = """
-**Hello {}, My Name is {}!** 
-I am an **SUPERB**  group management bot.
-You can find the list of available commands with /help.
+**ʜᴀʟᴏ {}, ᴀᴋᴜ ᴀᴅᴀʟᴀʜ {}!** 
+ᴀᴋᴜ ᴅɪ ᴍᴀɴᴀɢᴇ ᴏʟᴇʜ ᴏʀᴀɴɢ ʏᴀɴɢ ꜱᴀɴɢᴀᴛ ɢᴀɴᴛᴇɴɢ ʏᴀɪᴛᴜ ᴏᴡɴᴇʀ ɢʀᴜᴘ @ᴠᴇʀʏʟᴀᴢʏʀɪᴄʜ , ᴊɪᴋᴀ ᴀᴅᴀ ʏᴀɴɢ ᴅɪᴛᴀɴʏᴀᴋᴀɴ ᴍᴀꜱᴜᴋ ꜱᴀᴊᴀ ᴋᴇ ɢʀᴜᴘ ɴʏᴀ.
+ᴏʜ ɪʏᴀ ᴊɪᴋᴀ ɪɴɢɪɴ ᴍᴇʟɪʜᴀᴛ ᴍᴏᴅᴜʟᴇ ʙᴏᴛ ᴀᴋᴜ ᴛɪɴɢɢᴀʟ ᴋʟɪᴋ ꜱᴀᴊᴀ /help.
 
 """
 
@@ -49,7 +49,7 @@ Hello! my name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-TECHNO_IMG = "https://telegra.ph/file/84b2017bc2f3c90f2e61c.jpg"
+TECHNO_IMG = "https://telegra.ph/file/59569b2025d22475ef2d0.mp4"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
